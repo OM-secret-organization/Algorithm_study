@@ -6,8 +6,10 @@
 
 
 def solution(array, n):
-    answer = 0
-    return answer
+    sum = []
+    for i in array:
+      if i == n:
+        sum.append(i)
+    return len(sum)
 
 
-    
